@@ -19,10 +19,18 @@
 
 
 body{
+  width:100%;
   background-color: var(--body-color);
   transition:background-color 0.3s; ;
 }
+
 /**********nav area start**********/
+@media only screen and (max-width: 900px){
+
+  body{
+    width:900px;
+  }
+}
 nav{
   display: flex;
   flex-wrap: wrap;
@@ -107,7 +115,6 @@ nav{
   margin-right: 20px;
 }
 .right-sidebar{
-  background: var(--bg-color);
   padding:20px;
   border-radius: 4px;
   color:#626262;
